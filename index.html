@@ -52,7 +52,7 @@ body {font-size:16px;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-black w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-black w3-collapse w3-mobile w3-top w3-large w3-padding" style="overflow: hidden; z-index:101;width:300px;font-weight:bold;" id="mySidebar"><br>
   <div class="w3-container">
     <h3 class="w3-row" style="padding-bottom: 12px; padding-top: 64px;"><b>AVENTURA<br>ADMIN</b></h3>
   </div>
@@ -61,8 +61,8 @@ body {font-size:16px;}
     <div class="w3-col w3-white" style="width:36px; border-radius: 30px 0px 0px 30px; padding: 2px;">
       <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle w3-margin-right" style="width:32px">
     </div>
-    <div class="w3-rest w3-white" style="border-radius: 0px 30px 30px 0px; padding:2px; height: 36px;">
-      <div class="w3-small" style="margin-left:6px; margin-top:6px;">Welcome, <strong>Vikas Lazarus</strong></div>
+    <div class="w3-rest w3-white" style="width: fit-content; border-radius: 0px 30px 30px 0px; padding:2px; height: 36px;">
+      <div class="w3-small" style="margin-left:6px; margin-right: 12px; margin-top:6px;"><strong>Vikas Lazarus</strong></div>
     </div>
   </div>
 
@@ -75,15 +75,31 @@ body {font-size:16px;}
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Invoices</a>
   </div>
 
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-white w3-right w3-hide-large w3-display-bottomright w3-small" style="margin-bottom:12px; border-radius: 30px 0px 0px 30px;">Close Menu</a>
-  
-
+  <a href="javascript:void(0)" onclick="w3_close()" class=" w3-button w3-white w3-right w3-hide-large w3-display-bottomright w3-small" style="margin-bottom:40px; border-radius: 30px 0px 0px 30px;">
+    <div class="w3-col" style="width: 25px;"> <svg style="margin-top: 2px;" width="14px" height="14px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff5722"/>
+      </svg></div>
+      <div class="w3-rest">Close Menu</div>
+    </a>
+  <div class="w3-display-bottomright" style="margin-right: -5px; margin-bottom: 64px;">
+      <svg width="25" height="25" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="#ffffff"></path></svg>
+    </div>
+    <div class="w3-display-bottomright" style="margin-right: -10px; margin-bottom: 17px; rotate: -90deg;">
+      <svg width="25" height="25" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="#ffffff"></path></svg>
+    </div>
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding" style="z-index: 100;">
-  <a href="javascript:void(0)" class="w3-button w3-black w3-margin-right" onclick="w3_open()">☰</a>
-  <span>ADMIN</span>
+  <a href="javascript:void(0)" class="w3-button w3-black" onclick="w3_open()">
+    <svg fill="#000000" width="28px" height="28px" viewBox="0 0 24 24" id="menu" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg" class="icon flat-line"><path id="primary" d="M3,12H21M9,18H21M3,6H15" style="fill: none; stroke: rgb(255, 255, 255); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path></svg>
+  </a>
+  <span>AVENTURA</span>
+
+  <div class="w3-row w3-right" style="width:30px; height: 30px; margin-top:6px;">
+    <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle" style="border:2px solid white; width:30px">
+  </div>
+
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -100,7 +116,7 @@ body {font-size:16px;}
   </div>
   
   <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiper w3-padding">
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
