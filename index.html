@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">  <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
  <!-- Demo styles -->
  <style>
  
@@ -24,7 +25,7 @@
     border-radius: 30px;
     text-align: center;
     
-    background-color: white;
+    
 
 
    
@@ -141,31 +142,38 @@ body {font-size:16px;}
 <!--profile-->
 <div class="w3-container" style="margin-top:80px" id="showcase">
     
-  <h1 class="w3-xxlarge w3-text-black"><b>My Profile</b></h1>
-  <hr style="width:50px;border:5px solid #484848" class="w3-round">
+  <h1 class="w3-large w3-text-black"><b>My Profile</b></h1>
+  <hr style="width:80px;border:2px solid #484848" class="w3-round">
   
 </div>
  <!-- Photo grid (modal) -->
 <div class="w3-row w3-margin">
-<div class="w3-row w3-display-container w3-round w3-padding w3-text-dark-gray" style="background: #2A7B9B;
-background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);">
+<div class="w3-row w3-display-container w3-round w3-padding w3-text-dark-gray w3-light-gray" >
 
 
 
 <div class="w3-row w3-margin-bottom w3-row" style="margin-top: 12px; ">
-  <div class="w3-col l6 m6 s12" style="border-bottom:2px solid #484848; padding-left: 12px; padding-bottom: 12px;">
-  <div class="w3-col" style="width:80px; border-radius: 30px 0px 0px 30px;">
-    <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle w3-margin-right" style="width:80px; border:2px solid #484848;">
+  <div class="w3-col l6 m6 s12" style=" padding-bottom: 12px;">
+  <div class="w3-col" style=" padding-left: px; width:80px; border-radius: 30px 0px 0px 30px;">
+    <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle w3-margin-right" style="width:78.13px; border:2px solid #484848;">
   </div>
   <div class="w3-rest" style=" padding:2px; padding-top: 8px;">
     <div class="w3-large w3-text-dark-gray" style="margin-left:6px; margin-right: 12px; margin-top:6px;"><strong>Vikas Lazarus
      </strong></div>
     
-     <div class="w3-tag w3-button w3-dark-gray w3-small" style="margin-left:6px; padding: 2px 18px; border-radius: 30px;">View Profile</div>
+     <div class="w3-tag w3-button w3-dark-gray w3-small" style="margin-left:6px; padding: 2px 18px; border-radius: 30px;">Founder & CEO</div>
     
      
   </div>
   
+<hr  style="margin-bottom: 0px; border-bottom:2px solid rgba(72, 72, 72, 0.137);">
+<p class="w3-small">This Month Target :</p>
+<div class="w3-borde w3-white" style="border-radius: 30px; padding: 2px;">
+  <div class="w3-green w3-tiny w3-center" style="padding: 2px; height:18px;width:20%; border-radius: 30px;">20%</div>
+</div>
+<hr class="w3-hide-large"  style=" border-bottom:2px solid rgba(72, 72, 72, 0.137);">
+
+
 </div>
 
 <div class="w3-col l6 m6 s12">
@@ -189,7 +197,7 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
 
 .circle-bg {
   fill: none;
-  stroke: #ffffff;
+  stroke: rgba(72, 72, 72, 0.137);
   stroke-width: 3.8;
 }
 
@@ -207,19 +215,19 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
 }
 
 .circular-chart.orange .circle {
-  stroke: #ff9f00;
+  stroke: #4158D0;
 }
 
 .circular-chart.green .circle {
-  stroke: #4CC790;
+  stroke: #C850C0;
 }
 
 .circular-chart.blue .circle {
-  stroke: #3c9ee5;
+  stroke: #FFCC70;
 }
 
 .percentage {
-  fill: #ffffff;
+  fill: #484848;
   font-family: sans-serif;
   font-size: 0.5em;
   text-anchor: middle;
@@ -227,7 +235,7 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
   </style>
 <div class="flex-wrapper">
  
-  <div class="single-chart"> <p class="w3-small w3-center">Data</p>
+  <div class="single-chart"> <p class="w3-small w3-center">Profile Status</p>
     <svg viewBox="0 0 36 36" class="circular-chart orange">
       <path class="circle-bg"
         d="M18 2.0845
@@ -244,7 +252,7 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
     </svg>
   </div>
   
-  <div class="single-chart"> <p class="w3-small w3-center">Data</p>
+  <div class="single-chart"> <p class="w3-small w3-center">Conversons</p>
     <svg viewBox="0 0 36 36" class="circular-chart green">
       <path class="circle-bg"
         d="M18 2.0845
@@ -261,7 +269,7 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
     </svg>
   </div>
 
-  <div class="single-chart"> <p class="w3-small w3-center">Data</p>
+  <div class="single-chart"> <p class="w3-small w3-center">Cancled Leads</p>
     <svg viewBox="0 0 36 36" class="circular-chart blue">
       <path class="circle-bg"
         d="M18 2.0845
@@ -290,8 +298,8 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1
   <!-- Header -->
   <div class="w3-container" id="showcase">
     
-    <h1 class="w3-xxlarge w3-text-black"><b>Advanced Tools.</b></h1>
-    <hr style="width:50px;border:5px solid #484848" class="w3-round">
+    <h1 class="w3-large w3-text-black"><b>Advanced Tools.</b></h1>
+    <hr style="width:80px;border:2px solid #484848" class="w3-round">
   </div>
    <!-- Photo grid (modal) -->
   <div class="w3-row w3-margin">
@@ -301,45 +309,98 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
   
 
-  <h2><b>Advanced Travel Tools</b></h2>
+  <h2><b><i class="fas fa-fire"></i> Explore Advanced Travel Tools</b></h2>
   <p>We Make Traveling And Planing Easy.</p>
 
- <!-- Swiper -->
- <div class="swiper mySwiper w3-text-black" style="padding-right: 35px;">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-    
+<hr>
 
-      Itenaries</div>
-      <div class="swiper-slide">
+  <div class="w3-row w3-margin-bottom" style="padding: 6px 0px;">
+
+    <div class="w3-row">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide w3-button w3-hover-none w3-small w3-text-white" style="margin-right: 20px;">
+            <i class="fas fa-fire w3-large"></i>
+            <br>
+
+            <strong>Itenaries</strong>
+          </div>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+            <i class="fas fa-mountain w3-large"></i>
+            <br>
+            <strong>Shimla</strong>
+          </div>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+            <i class="fas fa-skiing-nordic w3-large"></i><br>
+            <strong>Invoices</strong>
+          </div>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+            <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
+            <strong>Hotel Booking</strong>
+          </div>
+
+
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+            <i class="fa-solid fa-mountain-sun w3-large"></i><br>
+            <strong>CRM Managment</strong>
+          </div>
+        </div>
+
      
 
-        Invoices</div>
-    
-    
-        <div class="swiper-slide" >
-     
-          Hotel Bookings</div>
-      
-   
-          <div class="swiper-slide">
-    
-    
-            CRM Managment</div>
-        
-     
-   
 
-    
+
+    </div>
+
   </div>
-  <div class="swiper-pagination"></div>
-</div>
 
+
+</div>
  </div>
   </div>
  
 
   
+<!-- CRM -->
+<div class="w3-container" id="packages" style="margin-top:75px">
+  <h1 class="w3-large w3-text-black"><b>CRM.</b></h1>
+  <hr style="width:80px;border:2px solid #484848" class="w3-round">
+</div>
+
+<div class="w3-row w3-margin">
+  <div class="w3-row w3-light-grey" style="border-radius: 15px;">
+    <table class="w3-small w3-table w3-light-grey" style="border-radius: 15px;">
+
+      
+
+      <tr class="w3-text-white" style="
+      background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); height: 50px;">
+        <th style="padding-top:13px;  border-radius: 15px 0px 0px 0px;">S.n.</th>
+        <th style="padding-top:13px;">Name</th>
+        <th class="w3-center" style="padding-top:13px; border-radius: 0px 15px 0px 0px;">Status</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Smith</td>
+        <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">New</div></td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Jackson</td>
+        <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">Confermed</div></td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Johnson</td>
+        <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">Cancled</div></td>
+      </tr>
+    </table>
+  </div>
+      
+ 
+</div>
 
  
 
@@ -347,132 +408,91 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
   <!-- Services -->
   <div class="w3-container" id="services">
-    <h1 class="w3-xxlarge w3-text-black"><b>Services.</b></h1>
-    <hr style="width:50px;border:5px solid #484848" class="w3-round">
-   
-    <div class="w3-row">
-      <div class="w3-row w3-display-container w3-round w3-padding w3-text-white" style="
-       background-color: #4158D0;
-     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);">
-     
-       
-     
-       <h2><b>Advanced Travel Tools</b></h2>
-       <p>We Make Traveling And Planing Easy.</p>
-     <button class="w3-button w3-dark-gray w3-small w3-margin-bottom" style="border-radius: 30px;">Explore Tools</button>
+    <h1 class="w3-large w3-text-black"><b>Services.</b></h1>
+    <hr style="width:80px;border:2px solid #484848" class="w3-round">
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
+        <div class="w3-container">
+          <h3>Travel Packages</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+        </div>
       </div>
-       </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
+        <div class="w3-container">
+          <h3>Hotels</h3>
+          <p class="w3-opacity">Sales Executive</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
+        <div class="w3-container">
+          <h3>Transportation</h3>
+          
+          <p class="w3-opacity">Sales Executive</p>
+        </div>
+      </div>
+    </div>
   </div>
   
   <!-- Designers -->
   <div class="w3-container" id="designers" style="margin-top:75px">
-    <h1 class="w3-xxlarge w3-text-black"><b>Designers.</b></h1>
-    <hr style="width:50px;border:5px solid #484848" class="w3-round">
-    <p>The best team in the world.</p>
-    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <p><b>Our designers are thoughtfully chosen</b>:</p>
+    <h1 class="w3-large w3-text-black"><b>Our Team</b></h1>
+    <hr style="width:80px;border:2px solid #484848" class="w3-round">
+    
+    <p><b>Our Choosen Taem Meamber</b>:</p>
   </div>
 
   <!-- The Team -->
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
         <div class="w3-container">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
+          <h3>Vikas Lazarus</h3>
+          <p class="w3-opacity">CEO & Founder ( Sales Executive )</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
         <div class="w3-container">
           <h3>Jane Doe</h3>
-          <p class="w3-opacity">Designer</p>
+          <p class="w3-opacity">Sales Executive</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <div class="w3-light-grey" style="border-radius: 15px;">
+        
         <div class="w3-container">
           <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
+          <p class="w3-opacity">Sales Executive</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxlarge w3-text-black"><b>CRM.</b></h1>
-    <hr style="width:50px;border:5px solid #484848" class="w3-round">
-    <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-  </div>
-
-  <div class="w3-row w3-margin">
-    <div class="w3-row w3-light-grey" style="border-radius: 15px;">
-      <table class="w3-small w3-table w3-light-grey" style="border-radius: 15px;">
-        <tr class="w3-dark-gray" style="height: 50px;">
-          <th style="padding-top:13px;  border-radius: 15px 0px 0px 0px;">S.n.</th>
-          <th style="padding-top:13px;">Name</th>
-          <th class="w3-center" style="padding-top:13px; border-radius: 0px 15px 0px 0px;">Status</th>
-        </tr>
-        <tr>
-          <td>01</td>
-          <td>Smith</td>
-          <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">New</div></td>
-        </tr>
-        <tr>
-          <td>02</td>
-          <td>Jackson</td>
-          <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">Confermed</div></td>
-        </tr>
-        <tr>
-          <td>03</td>
-          <td>Johnson</td>
-          <td class="w3-center"><div class="w3-tag w3-round" style="padding: 2px 12px;">Cancled</div></td>
-        </tr>
-      </table>
-    </div>
-        
-   
-  </div>
   
   <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxlarge w3-text-black"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid #484848" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" requiblack>
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" requiblack>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" requiblack>
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-light-gray w3-margin-bottom">Send Message</button>
-    </form>  
-  </div>
+
 
 <!-- End page content -->
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Poweblack by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
