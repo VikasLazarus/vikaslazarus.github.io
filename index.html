@@ -3,7 +3,7 @@
 <head>
 <title>Admin</title>
 <meta charset="UTF-8">
-<meta name="theme-color" content="#ffffff" />
+<meta name="theme-color" content="#c2c2c2" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">  <!-- Link Swiper's CSS -->
@@ -22,7 +22,7 @@
   }
 
   .swiper-slide {
-    border-radius: 30px;
+    
     text-align: center;
     
     
@@ -41,18 +41,27 @@
 
 </style>
 <style>
+  body {
+    background-color: hsla(60.882352941178326, 0%, 96%, 1);
+    background-image: radial-gradient(circle at 64% 12%, rgba(234, 237, 197, 0.555) 6.688754566361296%, transparent 44.98438254159411%), radial-gradient(circle at 86% 50%, rgba(227, 197, 237, 0.705) 6.688754566361296%, transparent 44.98438254159411%);
+    background-blend-mode: darken, normal;
+}
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .w3-half img:hover{opacity:1}
 </style>
 </head>
-<body>
+<body style="">
 
   <!--right top menu large-->
-  <div class="w3-row w3-hide-small w3-padding" style="width: 300px; z-index: 101; position: fixed; top: 0; right: 0;">
+  <div class="w3-row w3-hide-small w3-padding" style="width: 300px; z-index: 101; position: fixed; top: 0; right: 40px;">
 
-    <div class="w3-row w3-card" style=" background-color: #f1f1f1cc; border-radius: 30px; padding: 6px;">
+    <div class="w3-row w3-card" style="background: rgba(194, 194, 194, 0.57);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.3px);
+-webkit-backdrop-filter: blur(13.3px); border-radius: 30px; padding: 6px;">
       <div class=" w3-row w3-col" style="width: 150px;">
         <div class="w3-col" style="width:36px; border-radius: 30px 0px 0px 30px; padding: 2px;">
           <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle w3-margin-right" style="border: 2px solid #484848; width:32px">
@@ -74,12 +83,16 @@ body {font-size:16px;}
 
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-light-gray w3-collapse w3-mobile w3-top w3-large w3-padding" style="overflow: hidden; z-index:101;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar  w3-collapse w3-mobile w3-top w3-large w3-padding" style="background: rgba(255, 255, 255, 0.521);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.3px);
+-webkit-backdrop-filter: blur(13.3px); overflow: hidden; z-index:101;width:300px;font-weight:bold;" id="mySidebar"><br>
   <div class="w3-container">
     
     <div class="w3-row" style="padding-bottom: 30px; padding-top: 64px;"><img  style="margin-right: 12px;  filter: invert(100%);" src="https://touristhill.in/images/logo2.png" width="38px"><b>AVENTURA</b></div>
   </div>
-
+<hr>
   <div class="w3-row" style=" border-radius: 30px; padding: 12px;">
     <div class=" w3-row w3-col" style="width: 150px;">
       <div class="w3-col" style="width:36px; border-radius: 30px 0px 0px 30px; padding: 2px;">
@@ -91,17 +104,21 @@ body {font-size:16px;}
     </div>
   
 
-<button class="w3-col w3-button w3-dark-gray w3-small w3-right" style="border-radius: 30px; width: 70px; height: 32px;">Logout</button>
+<button class="w3-col w3-button w3-deep-orange w3-small w3-right" style="padding: 2px 18px; border-radius: 30px; width: 78px; height: 32px;">Logout</button>
 
   </div>
 
-  <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Dashboard</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">CRM</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Itenarys</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Hotels</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Packages</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Invoices</a>
+  <div class="w3-bar-block" style="padding: 8px 12px;">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="margin-bottom: 2px; border-radius: 30px; background: rgba(194, 194, 194, 0.57);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.3px);
+    -webkit-backdrop-filter: blur(13.3px);">Dashboard</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">CRM</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Itenarys</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Hotels</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Invoices</a>
   </div>
 
   <a href="javascript:void(0)" onclick="w3_close()" class=" w3-button w3-dark-gray w3-hide-large w3-display-bottomleft w3-small" style="margin-bottom:40px; border-radius: 30px; margin-left: 28px;">
@@ -115,7 +132,12 @@ body {font-size:16px;}
 <!-- footer menu on small screens -->
 
 <!-- Top menu on small screens -->
-<header class=" w3-top w3-hide-large w3-light-gray w3-xlarge" style="padding:4px 0px; z-index: 100;">
+
+<header class=" w3-top w3-hide-large w3-xlarge" style="background: rgba(194, 194, 194, 0.57);
+border-radius: 0px  0px 15px 15px ;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.3px);
+-webkit-backdrop-filter: blur(13.3px); padding:4px 0px; z-index: 100;">
   <a href="javascript:void(0)" class="w3-dark-gray w3-right w3-button w3-small" style="margin-right: 12px; margin-left: 12px; margin-top: 8px; margin-bottom: 7px; border-radius: 30px;" onclick="w3_open()">
     <div class="w3-col" style="width: 12px; margin-right: 4px;"> <svg width="12px" height="12px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M6.5 10.32C8.433 10.32 10 8.753 10 6.82001C10 4.88701 8.433 3.32001 6.5 3.32001C4.567 3.32001 3 4.88701 3 6.82001C3 8.753 4.567 10.32 6.5 10.32Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -140,165 +162,13 @@ body {font-size:16px;}
 <div class="w3-main w3-display-container" style="margin-left:340px;margin-right:40px">
   
 <!--profile-->
-<div class="w3-container" style="margin-top:80px" id="showcase">
-    
-  <h1 class="w3-large w3-text-black"><b>My Profile</b></h1>
-  <hr style="width:80px;border:2px solid #484848" class="w3-round">
-  
-</div>
- <!-- Photo grid (modal) -->
-<div class="w3-row w3-margin">
-<div class="w3-row w3-display-container w3-round w3-padding w3-text-dark-gray w3-light-gray" >
 
-
-
-<div class="w3-row w3-margin-bottom w3-row" style="margin-top: 12px; ">
-  <div class="w3-col l6 m6 s12" style=" padding-bottom: 12px;">
-  <div class="w3-col" style=" padding-left: px; width:80px; border-radius: 30px 0px 0px 30px;">
-    <img src="https://img.freepik.com/premium-photo/stylish-look-neon-lighting-young-european-man-is-dark-studio_146671-56588.jpg?w=740" class="w3-circle w3-margin-right" style="width:78.13px; border:2px solid #484848;">
-  </div>
-  <div class="w3-rest" style=" padding:2px; padding-top: 8px;">
-    <div class="w3-large w3-text-dark-gray" style="margin-left:6px; margin-right: 12px; margin-top:6px;"><strong>Vikas Lazarus
-     </strong></div>
-    
-     <div class="w3-tag w3-button w3-dark-gray w3-small" style="margin-left:6px; padding: 2px 18px; border-radius: 30px;">Founder & CEO</div>
-    
-     
-  </div>
-  
-<hr  style="margin-bottom: 0px; border-bottom:2px solid rgba(72, 72, 72, 0.137);">
-<p class="w3-small">This Month Target :</p>
-<div class="w3-borde w3-white" style="border-radius: 30px; padding: 2px;">
-  <div class="w3-green w3-tiny w3-center" style="padding: 2px; height:18px;width:20%; border-radius: 30px;">20%</div>
-</div>
-<hr class="w3-hide-large"  style=" border-bottom:2px solid rgba(72, 72, 72, 0.137);">
-
-
-</div>
-
-<div class="w3-col l6 m6 s12">
-  <style>
-  .flex-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.single-chart {
-  width: 33%;
-  justify-content: space-around ;
-}
-
-.circular-chart {
-  display: block;
-  margin: 10px auto;
-  max-width: 80%;
-  max-height: 250px;
-}
-
-.circle-bg {
-  fill: none;
-  stroke: rgba(72, 72, 72, 0.137);
-  stroke-width: 3.8;
-}
-
-.circle {
-  fill: none;
-  stroke-width: 2.8;
-  stroke-linecap: round;
-  animation: progress 1s ease-out forwards;
-}
-
-@keyframes progress {
-  0% {
-    stroke-dasharray: 0 100;
-  }
-}
-
-.circular-chart.orange .circle {
-  stroke: #4158D0;
-}
-
-.circular-chart.green .circle {
-  stroke: #C850C0;
-}
-
-.circular-chart.blue .circle {
-  stroke: #FFCC70;
-}
-
-.percentage {
-  fill: #484848;
-  font-family: sans-serif;
-  font-size: 0.5em;
-  text-anchor: middle;
-}
-  </style>
-<div class="flex-wrapper">
- 
-  <div class="single-chart"> <p class="w3-small w3-center">Profile Status</p>
-    <svg viewBox="0 0 36 36" class="circular-chart orange">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="30, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="20.35" class="percentage">30%</text>
-    </svg>
-  </div>
-  
-  <div class="single-chart"> <p class="w3-small w3-center">Conversons</p>
-    <svg viewBox="0 0 36 36" class="circular-chart green">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="60, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="20.35" class="percentage">60%</text>
-    </svg>
-  </div>
-
-  <div class="single-chart"> <p class="w3-small w3-center">Cancled Leads</p>
-    <svg viewBox="0 0 36 36" class="circular-chart blue">
-      <path class="circle-bg"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <path class="circle"
-        stroke-dasharray="90, 100"
-        d="M18 2.0845
-          a 15.9155 15.9155 0 0 1 0 31.831
-          a 15.9155 15.9155 0 0 1 0 -31.831"
-      />
-      <text x="18" y="20.35" class="percentage">90%</text>
-    </svg>
-  </div>
-</div>
-</div>
-
-
-</div>
-
-</div>
-</div>
 
 
   <!-- Header -->
-  <div class="w3-container" id="showcase">
+  <div class="w3-container" style="margin-top: 80px;" id="showcase">
     
-    <h1 class="w3-large w3-text-black"><b>Advanced Tools.</b></h1>
+    <h1 class="w3-large w3-text-black"><b>Advanced Travel Tools.</b></h1>
     <hr style="width:80px;border:2px solid #484848" class="w3-round">
   </div>
    <!-- Photo grid (modal) -->
@@ -314,34 +184,38 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 <hr>
 
-  <div class="w3-row w3-margin-bottom" style="padding: 6px 0px;">
+  <div class="w3-row w3-margin-bottom " style="overflow: hidden; background: rgba(194, 194, 194, 0.57);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.3px);
+  -webkit-backdrop-filter: blur(13.3px); padding: 6px 0px;">
 
     <div class="w3-row">
       <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide w3-button w3-hover-none w3-small w3-text-white" style="margin-right: 20px;">
+          <div class="swiper-slide w3-button w3-hover-none w3-small w3-border-right" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
             <i class="fas fa-fire w3-large"></i>
             <br>
 
             <strong>Itenaries</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
             <i class="fas fa-mountain w3-large"></i>
             <br>
             <strong>Shimla</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
             <i class="fas fa-skiing-nordic w3-large"></i><br>
             <strong>Invoices</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
             <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
             <strong>Hotel Booking</strong>
           </div>
 
 
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px;">
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 40px;">
             <i class="fa-solid fa-mountain-sun w3-large"></i><br>
             <strong>CRM Managment</strong>
           </div>
@@ -363,7 +237,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
   
 <!-- CRM -->
-<div class="w3-container" id="packages" style="margin-top:75px">
+<div class="w3-container">
   <h1 class="w3-large w3-text-black"><b>CRM.</b></h1>
   <hr style="width:80px;border:2px solid #484848" class="w3-round">
 </div>
