@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">  <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
  <!-- Demo styles -->
  <style>
@@ -52,7 +53,7 @@ body {font-size:16px;}
 .w3-half img:hover{opacity:1}
 </style>
 </head>
-<body style="">
+<body>
 
   <!--right top menu large-->
   <div class="w3-row w3-hide-small w3-padding" style="width: 300px; z-index: 101; position: fixed; top: 0; right: 40px;">
@@ -113,12 +114,12 @@ backdrop-filter: blur(13.3px);
     
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13.3px);
-    -webkit-backdrop-filter: blur(13.3px);">Dashboard</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">CRM</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Itenarys</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Hotels</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Packages</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style="border-radius: 30px; margin-bottom:2px;">Invoices</a>
+    -webkit-backdrop-filter: blur(13.3px);"><i class="fas fa-dice-three" style="width: 30px;"></i> Dashboard</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style=" border-radius: 30px; margin-bottom:2px;"><i class="fas fa-user-check" style="width: 30px;"></i> CRM</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style=" border-radius: 30px; margin-bottom:2px;"><i class="fas fa-file-pdf" style="width: 30px;"></i> Itenarys</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style=" border-radius: 30px; margin-bottom:2px;"><i class="fas fa-h-square" style="width: 30px;"></i> Hotels</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style=" border-radius: 30px; margin-bottom:2px;"><i class="fas fa-suitcase" style="width: 30px;"></i> Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" style=" border-radius: 30px; margin-bottom:2px;"><i class="fas fa-file-alt" style="width: 30px;"></i> Invoices</a>
   </div>
 
   <a href="javascript:void(0)" onclick="w3_close()" class=" w3-button w3-dark-gray w3-hide-large w3-display-bottomleft w3-small" style="margin-bottom:40px; border-radius: 30px; margin-left: 28px;">
@@ -184,39 +185,43 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 <hr>
 
-  <div class="w3-row w3-margin-bottom " style="overflow: hidden; background: rgba(194, 194, 194, 0.57);
-  border-radius: 15px;
+ 
+ </div>
+  </div>
+ 
+  <div class="w3-row w3-margin-bottom w3-padding" >
+
+    <div class="w3-row w3-padding" style="overflow: hidden;border-radius: 15px;
+    background: rgba(255, 255, 255, 0.57);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(13.3px);
   -webkit-backdrop-filter: blur(13.3px); padding: 6px 0px;">
-
-    <div class="w3-row">
       <!-- Swiper -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide w3-button w3-hover-none w3-small w3-border-right" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
-            <i class="fas fa-fire w3-large"></i>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #dbdbdb;">
+            <i class="fas fa-fire w3-xlarge"></i>
             <br>
 
             <strong>Itenaries</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
-            <i class="fas fa-mountain w3-large"></i>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #dbdbdb;">
+            <i class="fas fa-mountain w3-xlarge"></i>
             <br>
-            <strong>Shimla</strong>
+            <strong>Hotels</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
-            <i class="fas fa-skiing-nordic w3-large"></i><br>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #dbdbdb;">
+            <i class="fas fa-skiing-nordic w3-xlarge"></i><br>
             <strong>Invoices</strong>
           </div>
-          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #c2c2c2;">
-            <i class="fa fa-heart w3-large" aria-hidden="true"></i> <br>
+          <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 20px; border-right: 1px solid #dbdbdb;">
+            <i class="fa fa-heart w3-xlarge" aria-hidden="true"></i> <br>
             <strong>Hotel Booking</strong>
           </div>
 
 
           <div class="swiper-slide w3-button w3-hover-none w3-small" style="margin-right: 40px;">
-            <i class="fa-solid fa-mountain-sun w3-large"></i><br>
+            <i class="fa-solid fa-mountain-sun w3-xlarge"></i><br>
             <strong>CRM Managment</strong>
           </div>
         </div>
@@ -231,10 +236,6 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 
 </div>
- </div>
-  </div>
- 
-
   
 <!-- CRM -->
 <div class="w3-container">
