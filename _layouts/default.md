@@ -93,7 +93,7 @@ a{
 </style>
 </head>
 <body>
-    <div class="w3-row w3-text-white w3-red" style="background:url({{site.baseurl }}/assets/images/tex.png); padding: 1px 12px ;  z-index: 4;">
+    <div class="w3-row w3-text-white w3-deep-orange" style="background:url({{site.baseurl }}/assets/images/tex.png); padding: 1px 12px ;  z-index: 4;">
         <div class="aa"></div>
         <div class="w3-content" style="max-width: 1100px;">
           <span class="w3-col l12  m12 s12 w3-small w3-center" style="padding: 8px 0px ;"><span><b style="font-weight:900;">Winter Sale!</b> Save Up To <b style="font-weight:900;">70% Off</b> On Your Trip
@@ -108,7 +108,7 @@ a{
       <span class="w3-bar-item w3-hide-medium w3-hide-large w3-right ">
 
          <a href="tel:+918219471645" aria-label="Call Now"><span class="w3-ro w3-sand" style="border-radius:30px ; padding: 0px 7.5px; padding-bottom: 4px; margin-right: 6px;">
-          <i class="w3-text-red  fa fa-phone w3-small" style="padding-left:2px ;"></i>
+          <i class="w3-text-deep-orange  fa fa-phone w3-small" style="padding-left:2px ;"></i>
         </span></a>
       </span>
       <a href="#" class="w3-bar-item w3-button w3-white w3-hover-none" style="padding:8px 12px;">
@@ -359,10 +359,10 @@ a{
 
 
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-red" style=" border-radius:30px;   padding:8px 8px; margin:3px 0px;"></i><strong class="w3-small w3-text-dark-gray"> Touristhilltravels@gmail.com</strong></a>
+        <a href="mailto:touristhilltravels@gmail.com"><i class="fa fa-envelope w3-tiny w3-sand w3-text-deep-orange" style=" border-radius:30px;   padding:8px 8px; margin:3px 0px;"></i><strong class="w3-small w3-text-dark-gray"> Touristhilltravels@gmail.com</strong></a>
       </div>
       <div class="w3-hide-small w3-bar-item w3-right">
-        <a href="tel:+918219471645"><i class="fa fa-phone w3-tiny w3-sand w3-text-red" style=" border-radius:30px;  padding:8px 9px; margin:2px 0px;"></i><strong class="w3-small w3-text-dark-gray"> +91-82194-71645</strong></a>
+        <a href="tel:+918219471645"><i class="fa fa-phone w3-tiny w3-sand w3-text-deep-orange" style=" border-radius:30px;  padding:8px 9px; margin:2px 0px;"></i><strong class="w3-small w3-text-dark-gray"> +91-82194-71645</strong></a>
       </div>
 
       <div class="w3-hide-small w3-bar-item w3-right">
@@ -390,20 +390,20 @@ a{
 
 <div class=" w3-row w3-display-topright w3-hide-large w3-hide-medium" style="padding-right: 10px;">
        
-        <div class="w3-col w3-display-container w3-card" style="width: 50px; height: 50px; background-color: #F44336;">
+        <div class="w3-col w3-display-container w3-card" style="width: 50px; height: 50px; background-color: #FF5722;">
           <div class="w3-display-middle"><b class="w3-large w3-text-white"><span class="w3-tiny">Rating</span><br> 5.0 </b></div>
           <div class="w3-display-bottomleft" style="left: 0;
           bottom: -18px;
-          border-left: 30px solid #F44336;
-          border-right: 30px #F44336;
+          border-left: 30px solid #FF5722;
+          border-right: 30px #FF5722;
           border-bottom: 20px solid transparent;
           transition: all .2s linear;">
            
           </div>
           <div class="w3-display-bottomright" style="right: 0;
           bottom: -18px;
-          border-left: 20px #F44336;
-    border-right: 30px solid #F44336;
+          border-left: 20px #FF5722;
+    border-right: 30px solid #FF5722;
     border-bottom: 20px solid transparent;
     transition: all .2s linear;">
            
@@ -421,13 +421,13 @@ a{
     <div class="w3-half" style="color: white; height: 340px;">
       
      
-        <h1 class=" w3-xxlarge" style="margin-top: 40px; color: #484848;"><strong><span class="w3-text-red">Welcome To </span><br>
+        <h1 class=" w3-xxlarge" style="margin-top: 40px; color: #484848;"><strong><span class="w3-text-deep-orange">Welcome To </span><br>
              Tourist Hill Tours And Travels</strong></h1>
                
                
           <p style="color:#393E46 ;">Hi We Provide Room Service In manali From budget To Luxery At Best Price With Best Facilites like Free WiFi,</p>
-          <button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button w3-small  w3-hover-white w3-red" style="border-radius: 30px; margin-top:8px; margin-right: 8px;"><b>Explore Packages</b></button>
-        <a href="tel:+919882220191"><button class="w3-bar-item w3-button w3-small  w3-hover-white w3-border w3-border-red w3-border w3-sand w3-text-red " style="border-radius: 30px; margin-top:8px; margin-right: 8px;"><b>Call US Now</b></button>
+          <button onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button w3-small  w3-hover-white w3-deep-orange" style="border-radius: 30px; margin-top:8px; margin-right: 8px;"><b>Explore Packages</b></button>
+        <a href="tel:+919882220191"><button class="w3-bar-item w3-button w3-small  w3-hover-white w3-border w3-border-red w3-border w3-sand w3-text-deep-orange " style="border-radius: 30px; margin-top:8px; margin-right: 8px;"><b>Call US Now</b></button>
             </a>
           
      
@@ -435,12 +435,12 @@ a{
   
       <div class="w3-half w3-right w3-display-container" style="height: 340px;">
           
-        <div class="w3-display-topright w3-red w3-center w3-card" style="background: url({{ site.baaseurl }}/assets/images/tex.png); border-radius: 15px; margin-right: 0px; height: 120px; width: 80px; ">
+        <div class="w3-display-topright w3-deep-orange w3-center w3-card" style="background: url({{ site.baaseurl }}/assets/images/tex.png); border-radius: 15px; margin-right: 0px; height: 120px; width: 80px; ">
         <p style="margin-top: 12px;"><b class="w3-xlarge">24/7</b><br><b>Customer Support</b><p>
         </div>
           
   
-      <div class="w3-display-bottomright w3-red w3-card" style="background: url({{ site.baaseurl }}/assets/images/tex.png);  border-radius: 50px 50px 0px 0px; margin-right: 60px; height: 180px; width: 400px; ">
+      <div class="w3-display-bottomright w3-deep-orange w3-card" style="background: url({{ site.baaseurl }}/assets/images/tex.png);  border-radius: 50px 50px 0px 0px; margin-right: 60px; height: 180px; width: 400px; ">
       </div>
       <div class="w3-section w3-display-middle">
           <img class="w3-animate-zoom" alt="mount header image" src="{{ site.baseurl }}/assets/images/hed.png" height="300px">
@@ -497,7 +497,7 @@ a{
             <div class="w3-row">
           <span class="w3-col s6 m6 l6 w3-margin-bottom" style="padding: 6px 0px; font-size: 14px;"><b>15,000 + <br><span class="w3-tiny">Travelers Reviews</span> </b></span>
             <span class="w3-col s6 m6 l6 w3-margin-bottom" style="padding: 6px 0px; font-size: 16px;">
-              <button class="w3-button w3-right w3-tiny w3-red w3-border w3-border-dark-gray w3-card" style="margin-top: 6px; padding: 6px 12px; border-radius: 30px;">View Reviews</button>
+              <button class="w3-button w3-right w3-tiny w3-deep-orange w3-border w3-border-dark-gray w3-card" style="margin-top: 6px; padding: 6px 12px; border-radius: 30px;">View Reviews</button>
             </span>
             
         
@@ -529,7 +529,7 @@ top: 0;">
         <!-- Swiper -->
         <div class="swiper mySwiper w3-text-gray swiper-initialized swiper-horizontal swiper-backface-hidden">
           <div class="swiper-wrapper" id="swiper-wrapper-069f7b5969d47308" aria-live="polite">
-            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-red tablink w3-text-red swiper-slide-active" onclick="openCity(event,'Explore')" role="group" aria-label="1 / 6" style="margin-right: 20px;">
+            <div class="swiper-slide slide-1 w3-button w3-hover-none w3-small w3-hover-text-red tablink w3-text-deep-orange swiper-slide-active" onclick="openCity(event,'Explore')" role="group" aria-label="1 / 6" style="margin-right: 20px;">
               <i class="fas fa-fire w3-large"></i>
               <br>
 
@@ -581,7 +581,7 @@ top: 0;">
 
 
 <div class="w3-large w3-content w3-padding w3-text-dark-gray">
-      <h2 class="w3-large w3-col s8 m8 l8"><strong>Shimla Tour Packages</strong></h2> <a href="/tour/shimla-travel-packages.html"><span class="w3-right w3-right-align w3-rest w3-text-dark-gray w3-small"><strong>View All </strong><i style="padding:3px 5px; border-radius: 30px; margin-top:15px;" class="w3-red fa-solid w3-small fa-angle-right"></i></span></a>
+      <h2 class="w3-large w3-col s8 m8 l8"><strong>Shimla Tour Packages</strong></h2> <a href="/tour/shimla-travel-packages.html"><span class="w3-right w3-right-align w3-rest w3-text-dark-gray w3-small"><strong>View All </strong><i style="padding:3px 5px; border-radius: 30px; margin-top:15px;" class="w3-deep-orange fa-solid w3-small fa-angle-right"></i></span></a>
     </div>
     <br>
  <div class="swiper mySwiper2 w3-content w3-padding swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -632,11 +632,11 @@ top: 0;">
           <div class="w3-row" style="margin-top: 6px;">
             <div class="w3-col" style="width: 50px;">
               <a href="tel:+918219471645"><button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
-                <i class="fa fa-phone w3-text-red"></i>
+                <i class="fa fa-phone w3-text-deep-orange"></i>
               </button></a>
             </div>
             <div class="w3-rest">
-              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-red" style="border-radius: 30px;">Request
+              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-deep-orange" style="border-radius: 30px;">Request
                 Callback</button>
 
             </div>
@@ -690,11 +690,11 @@ top: 0;">
                       <div class="w3-row" style="margin-top: 6px;">
                         <div class="w3-col" style="width: 50px;">
                           <a href="tel:+918219471645"><button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
-                            <i class="fa fa-phone w3-text-red"></i>
+                            <i class="fa fa-phone w3-text-deep-orange"></i>
                           </button></a>
                         </div>
                         <div class="w3-rest">
-                          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-red" style="border-radius: 30px;">Request
+                          <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-deep-orange" style="border-radius: 30px;">Request
                             Callback</button>
             
                         </div>
@@ -716,7 +716,7 @@ top: 0;">
     <hr>
     
     <div class="w3-large w3-content w3-padding w3-text-dark-gray">
-      <h2 class="w3-large w3-col s8 m8 l8"><strong>Manali Tour Packages</strong></h2> <a href="tours/shimla/index.html"><span class="w3-right w3-right-align w3-rest w3-text-dark-gray w3-small"><strong>View All </strong><i style="padding:3px 5px; border-radius: 30px; margin-top:15px;" class="w3-red fa-solid w3-small fa-angle-right"></i></span></a>
+      <h2 class="w3-large w3-col s8 m8 l8"><strong>Manali Tour Packages</strong></h2> <a href="tours/shimla/index.html"><span class="w3-right w3-right-align w3-rest w3-text-dark-gray w3-small"><strong>View All </strong><i style="padding:3px 5px; border-radius: 30px; margin-top:15px;" class="w3-deep-orange fa-solid w3-small fa-angle-right"></i></span></a>
     </div>
     <br>
  <div class="swiper mySwiper2 w3-content w3-padding swiper-initialized swiper-horizontal swiper-backface-hidden">
@@ -767,11 +767,11 @@ top: 0;">
           <div class="w3-row" style="margin-top: 6px;">
             <div class="w3-col" style="width: 50px;">
               <a href="tel:+918219471645"><button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; padding: 0px; border-radius: 30px;">
-                <i class="fa fa-phone w3-text-red"></i>
+                <i class="fa fa-phone w3-text-deep-orange"></i>
               </button></a>
             </div>
             <div class="w3-rest">
-              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-red" style="border-radius: 30px;">Request
+              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-small w3-deep-orange" style="border-radius: 30px;">Request
                 Callback</button>
 
             </div>
@@ -814,18 +814,18 @@ top: 0;">
           <h3 class="w3-xlarge">Contect Information :</h3>
           <a href="tel:+919882220191">
             <button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; margin-top: 6px; padding: 0px; border-radius: 30px;">
-              <i class="fa-solid fa-location-dot w3-text-red"></i>
+              <i class="fa-solid fa-location-dot w3-text-deep-orange"></i>
             </button>
              Shimla, Himachal Pradesh</a><br>
           <a href="tel:+919882220191">
             <button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; margin-top: 6px; padding: 0px; border-radius: 30px;">
-              <i class="fa fa-phone w3-text-red"></i>
+              <i class="fa fa-phone w3-text-deep-orange"></i>
             </button>
              +91-98822-20191</a>
           <br>
           <a href="tel:+919882220191">
             <button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; margin-top: 6px; padding: 0px; border-radius: 30px;">
-              <i class="fa fa-phone w3-text-red"></i>
+              <i class="fa fa-phone w3-text-deep-orange"></i>
             </button>
              +91-98822-20191</a>
           <br>
@@ -833,7 +833,7 @@ top: 0;">
         
           <a href="tel:+919882220191">
             <button class="w3-button w3-sand w3-small w3-border w3-border-sand" style="width: 34px; height: 34px; margin-top: 6px; padding: 0px; border-radius: 30px;">
-              <i class="fa-solid fa-envelope w3-text-red"></i>
+              <i class="fa-solid fa-envelope w3-text-deep-orange"></i>
             </button>
              Aventuria@gmail.com</a>
           <br>
@@ -852,7 +852,7 @@ top: 0;">
               <input style="height: 90px;" type="text" name="message" value="" size="40" class="w3-border w3-round2 w3-input" placeholder="Message" required="">
             </div>
             <div style="padding: 4px;">
-              <button type="submit" class="w3-round2 w3-small w3-button w3-red"><strong>Submit Contact Form</strong></button>
+              <button type="submit" class="w3-round2 w3-small w3-button w3-deep-orange"><strong>Submit Contact Form</strong></button>
               <p></p>
             </div>
           </form>
@@ -966,7 +966,7 @@ top: 0;">
                    <p class=" w3-small">Subscribe To Our Newslatter And Get Notifican About Our New Products And Offers Earlier Than Enyone Else.</p>
                    <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                      <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
-                             <i class="w3-text-red  fa fa-phone" style="padding-left:2px ;"></i>
+                             <i class="w3-text-deep-orange  fa fa-phone" style="padding-left:2px ;"></i>
                      </span>
                      <a href="tel:8219471645">
                            <sapn class="" style="font-size: 15px; margin: 0px;">
@@ -978,7 +978,7 @@ top: 0;">
                      </a></span>
                      <span class="w3-col l12  m12 s12 w3-small" style="padding: 5px 0px ;">
                        <span class="w3-ro w3-sand" style="border-radius:30px ; height: 20px; width: 20px; padding: 3px 4px; margin-right: 6px;">
-                               <i class="w3-text-red  fa fa-phone" style="padding-left:2px ;"></i>
+                               <i class="w3-text-deep-orange  fa fa-phone" style="padding-left:2px ;"></i>
                        </span>
                        <a href="tel:8219471645">
                              <sapn class="" style="font-size: 15px; margin: 0px;">
