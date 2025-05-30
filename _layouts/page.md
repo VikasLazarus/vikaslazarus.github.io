@@ -3,7 +3,7 @@
 
 <head>
   <title>Explore Shimla Travel Packages</title>
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/logo3.png" | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/logo.png">
   <meta name="description"
     content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
   <meta name="keywords"
@@ -12,7 +12,7 @@
  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
