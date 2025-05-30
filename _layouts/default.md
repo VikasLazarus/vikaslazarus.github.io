@@ -115,7 +115,7 @@ a{
         <div class="w3-large">
 
           <div class="w3-col" style="width: 144px; height: 36px;">
-            <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Logo Aventuria" width="144px" height="36px">
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo Aventuria" width="144px" height="36px">
           </div>
 
          
@@ -864,7 +864,7 @@ top: 0;">
 
 
 
-<footer class=" w3-padding-16 w3-text-dark-gray w3-margin-top" style=" border-top: #f9f9f9 solid 2px; background-color:#f9f9f9;">
+<footer class=" w3-padding-16 w3-white w3-text-dark-gray w3-margin-top" style=" border-top: #f9f9f9 solid 2px;">
          <!-- Footer -->
         
        
@@ -876,7 +876,7 @@ top: 0;">
                      <div class="w3-row w3-large">
              
                        <div class="w3-col" style="width: 224px; height: 56px;">
-                         <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Logo Aventuria" width="224px" height="56px">
+                         <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo Aventuria" width="224px" height="56px">
                        </div>
              
                        
