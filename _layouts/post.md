@@ -3,7 +3,7 @@
 
 <head>
   <title>Shimla Couple Tour From Chandigarh 4 Nighs 5 Days</title>
-  <link rel="icon" type="image/x-icon" href="{{ "/assets/images/logo3.png" | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/logo.png">
   <meta name="description"
     content="Shimla Manali Tour Package For Couple From Delhi with 4 nights, 5 days Shimla Manali tour from Delhi Enjoy stunning views thrilling activities and unforgettable travel experiences with us">
   <meta name="keywords"
@@ -14,7 +14,7 @@
   <link rel="canonical"
     href="https://vikaslazarus.github.io/aventuria/tours/shimla-manali-tour-package-for-couple.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
   <script type="application/ld+json">
 {
@@ -330,7 +330,7 @@
         <div class="w3-large">
 
           <div class="w3-col" style="width: 144px; height: 36px;">
-            <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Logo Aventuria" width="144px" height="36px">
+            <img src="{{ site.baseurl }}/assets/images/logo.png" alt="Logo Aventuria" width="144px" height="36px">
           </div>
 
 
@@ -618,7 +618,7 @@
         <div class="w3-large">
 
           <div class="w3-col" style="width: 144px; height: 36px;">
-            <img src="{{ "/assets/images/logo2.png" | relative_url }}" alt="Logo Aventuria" width="144px" height="36px">
+            <img src="{{ site.baseurl }}/assets/images/logo2.png" alt="Logo Aventuria" width="144px" height="36px">
           </div>
 
 
@@ -2047,7 +2047,7 @@ Stay At :</strong>
               <div class="w3-row w3-large">
       
                 <div class="w3-col" style="width: 224px; height: 56px;">
-                  <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="Logo Aventuria" width="224px" height="56px">
+                  <img src="{{ site.baseurl }}/assets/images/logo2.png" alt="Logo Aventuria" width="224px" height="56px">
                 </div>
       
                 
