@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Explore Shimla Travel Packages</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.webp">
+  <meta name="description"
+    content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
+  <meta name="keywords"
+    content="Himachal Pradesh tourism, India travel packages, Shimla tour, Manali tour, Himalayan treks, cultural tours India, adventure tourism India, tailor-made travel India, experienced travel guides India, unforgettable travel experiences India">
+  <meta name="author" content="Tourist hill">
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "Tourist Hill Travels",
+    "url" : "https://touristhill.in/"
+}
+</script>
+  <style>
+     td {
+    padding: 3px 0px;
+  }
+    .w3-round2 {
+      border-radius: 15px;
+    }
+    a {
+      text-decoration: none;
+    }
+
+   body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button,table {font-family: "Montserrat", sans-serif}
+
+    .w3-content {
+      max-width: 1100px;
+    }
+
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+
+    .slide-1 {
+      width: fit-content;
+    }
+
+    .slide-2 {
+
+
+
+      height: 530px;
+      width: 320px;
+      border-radius: 10px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+
+
+   <!--end-->
+<style>
+   .aa {
+      overflow: hidden;
+      width: 15px;
+      height: 36px;
+      transform: skewX(-20deg);
+      background-image: linear-gradient(to right, #ffffff, #ffffff00, #ffffff, #ffffff);
+      opacity: 0.3;
+      position: absolute;
+      animation-name: example;
+      animation-duration: 6s;
+      animation-timing-function: linear;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: right;
+    }
+
+    @keyframes example {
+      0% {
+        left: 0%;
+        top: 0px;
+        opacity: 0;
+      }
+
+      25% {
+        left: 25%;
+        top: 0px;
+        opacity: 0.3;
+      }
+
+      50% {
+        left: 50%;
+        top: 0px;
+        opacity: 0.5;
+      }
+
+      75% {
+        left: 75%;
+        top: 0px;
+        opacity: 0.3;
+      }
+
+      100% {
+        left: 90%;
+        top: 0px;
+        opacity: 0;
+      }
+    }
+    #more {display: none;}
+</style>
+
+    {% include top.md %}
+{% include nav.md %}
+
+  <!-- Header -->
+
+  <div class="w3-padding w3-content w3-row"><span class="w3-hover-text-green"> <a href="{{ site.url}}">Home</a></span> / <span class="w3-hover-text-green"> {{ page.title }}</span></div>
+
+
+<div class="w3-content w3-padding-16 w3-padding">
+    <div class="">
+      <div class="w3-row w3-white">
+        
+        
+        
+<div class="">
+        <h1 class="w3-text-dark-gray w3-xlarge"><strong>{{ page.title }}</strong></h1>
+ 
+        <p class="w3-text-grey">Active New Indian WhatsApp Group links and can be joind.</p>
+      <hr style="margin:2px 0px; border-top:2px solid #4CAF60; border-radius:30px; width:40%;" />
+    </div>
+
+
+       
+
+<div class="w3-row w3-row-padding w3-content" style="margin:0px -14px;">
+  {{ content }}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+       </div>
+  
+      
+    </div>
+  </div>
+
+     
+       
+     
+     
+
+
+  <!--about-->
+
+
+
+  
+
+  <div class="w3-container w3-padding-64 w3-center w3-border-top w3-border-bottom w3-white">
+        <h2>Have a WhatsApp Group to Share?</h2>
+        <p class="w3-large">Submit your group to reach thousands of potential members</p>
+        <button class="w3-button w3-padding-large w3-green w3-round-xxlarge w3-hover-white w3-hover-text-black">
+            Submit Your Group
+        </button>
+    </div>
+
+    {% include footer.md %}
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 0,
+     
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: "auto",
+      spaceBetween: 20,
+      
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+<script>
+  function myFunction2(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+    </body>
+    </html>
