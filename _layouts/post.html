@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <title>Explore Shimla Travel Packages</title>
-  <link rel="icon" type="image/x-icon" href="images/logo.webp">
+  <title>{{ page.title }}</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
   <meta name="description"
     content="India travel packages, Himalayan treks, cultural tours, adventure tourism, personalized itineraries.">
   <meta name="keywords"
@@ -255,9 +255,14 @@ top: 0;">
   <h3 class="w3-large">Categories :</h3>
   <hr style="border:1px solid #ffffff; margin:8px 0px;">
  
-    
-        <a class="w3-tag w3-hover-green w3-white w3-small" style="padding: 3px 12px; border-radius: 30px;" href="/share-market-whatsapp-group-link.html">Popular</a>
-    <hr style="border:0px #ffffff; margin:8px 0px;">
+   {% for post in site.posts %}
+    <div class="w3-tag w3-hover-green w3-button w3-small w3-hover-text-white w3-round2 w3-white w3-text-dark-gray" style="padding: 6px 12px;  margin: 3px 1px;">
+            
+      <strong><a href="{{ post.url }}">{{ post.category }} whatsapp Groups</a></strong>
+    </div>
+  {% endfor %}  
+  
+  <hr style="border:0px #ffffff; margin:8px 0px;">
     
   
     
@@ -319,12 +324,14 @@ top: 0;">
   </script>
   
 
-  <div class="w3-container w3-padding-64 w3-center w3-border-top w3-border-bottom w3-white">
-        <h2>Have a WhatsApp Group to Share?</h2>
-        <p class="w3-large">Submit your group to reach thousands of potential members</p>
-        <button class="w3-button w3-padding-large w3-green w3-round-xxlarge w3-hover-white w3-hover-text-black">
+  <div class="w3-container w3-padding-64 w3-center w3-border-top w3-border-bottom w3-border-light-gray" style="background-color: hsla(60.882352941178326, 0%, 96%, 1);
+    background-image: radial-gradient(circle at 64% 12%, rgba(234, 237, 197, 0.555) 6.688754566361296%, transparent 44.98438254159411%), radial-gradient(circle at 86% 50%, rgba(227, 197, 237, 0.705) 6.688754566361296%, transparent 44.98438254159411%);
+    background-blend-mode: darken, normal;">
+        <h2 class="w3-xlarge w3-text-dark-gray">Have a WhatsApp Group to Share?</h2>
+        <p class="w3-large w3-text-gray w3-padding">Submit your group to reach thousands of potential members</p>
+        <a href="{{ site.url}}submit.html"><button class="w3-button w3-small w3-green w3-round-xxlarge w3-hover-white w3-hover-text-black">
             Submit Your Group
-        </button>
+        </button></a>
     </div>
 
     {% include footer.md %}

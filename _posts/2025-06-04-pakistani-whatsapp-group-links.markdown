@@ -3,7 +3,7 @@ layout: post
 title:  "Pakistani WhatsApp Group Links"
 date:   2025-06-04 13:39:30 +0530
 categories: jekyll update
-permalink: /Pakistani-whatsapp-group-links.html
+permalink: /pakistani-whatsapp-group-links.html
 category: Pakistani
 Tab1: All Pakistani Groups
 Tab2: Market Pakistani Groups

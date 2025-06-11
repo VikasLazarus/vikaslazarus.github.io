@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Indian WhatsApp Group Links"
+title:  "Food WhatsApp Group Links"
 date:   2025-06-04 13:39:30 +0530
 categories: jekyll update
-permalink: /indian-whatsapp-group-links.html
-category: Indian
-Tab1: All Indian Groups
-Tab2: Market Indian Groups
-Tab3: Entairtainment Indian Groups
-Tab4: Movies Indian Groups
-Tab5: Songs Indian Groups
-Tab6: Media Indian Groups
-Tab7: Chat Indian Groups
-Tab8: Crypto Indian Groups
-Tab9: Stocks Indian Groups
-Tab10: Education Indian Groups
+permalink: /food-whatsapp-group-links.html
+category: Food
+Tab1: All Food Groups
+Tab2: Market Food Groups
+Tab3: Entairtainment Food Groups
+Tab4: Movies Food Groups
+Tab5: Songs Food Groups
+Tab6: Media Food Groups
+Tab7: Chat Food Groups
+Tab8: Crypto Food Groups
+Tab9: Stocks Food Groups
+Tab10: Education Food Groups
 ---
 
 <div class="w3-twothird">
@@ -35,12 +35,12 @@ Tab10: Education Indian Groups
                   <th style="padding-bottom: 12px;">Join Link</th>
                 </tr>
             
-             {% assign ul_indian = site.data.indian | where: "type", "1" %}
+             {% assign ul_Food = site.data.Food | where: "type", "1" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -73,12 +73,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "2" %}
+             {% assign ul_Food = site.data.Food | where: "type", "2" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -108,12 +108,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "3" %}
+             {% assign ul_Food = site.data.Food | where: "type", "3" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -142,12 +142,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "4" %}
+             {% assign ul_Food = site.data.Food | where: "type", "4" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -176,12 +176,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "5" %}
+             {% assign ul_Food = site.data.Food | where: "type", "5" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -210,12 +210,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "6" %}
+             {% assign ul_Food = site.data.Food | where: "type", "6" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -243,12 +243,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "7" %}
+             {% assign ul_Food = site.data.Food | where: "type", "7" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -277,12 +277,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "8" %}
+             {% assign ul_Food = site.data.Food | where: "type", "8" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -309,12 +309,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "9" %}
+             {% assign ul_Food = site.data.Food | where: "type", "9" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
@@ -342,12 +342,12 @@ Tab10: Education Indian Groups
                 </tr>
             
              
-             {% assign ul_indian = site.data.indian | where: "type", "10" %}
+             {% assign ul_Food = site.data.Food | where: "type", "10" %}
 
-           {% for indian in ul_indian %}
+           {% for Food in ul_Food %}
   <tr>
-  <td>{{ indian.name }}</td>
-    <td><a href="https://{{ indian.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
+  <td>{{ Food.name }}</td>
+    <td><a href="https://{{ Food.link }}" target="_blank" rel="noreferrer noopener">Join</a></td>
   </tr>
 {% endfor %}
 
