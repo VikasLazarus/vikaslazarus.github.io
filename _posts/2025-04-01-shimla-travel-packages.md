@@ -7,9 +7,9 @@ duration: 4 Nights 5 Days
 duration2: 4N 5D
 img1: img.png
 img2: img2.png
-img3: img.png
-img4: img.png
-img5: img.png
+img3: img3.png
+img4: img4.png
+img5: img5.png
 categories:
     - Shimla
 tags:
