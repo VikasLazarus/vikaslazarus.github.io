@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Login and Register</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:12px;}
+
+    .slide-1 {
+      width: fit-content;
+    }
+
+    .slide-2 {
+
+
+
+      height: 530px;
+      width: 320px;
+      border-radius: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="w3-row w3-top w3-hide-small" style="height: 100%;
+background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+">
+    
+<div class="w3-row w3-top w3-margin">
+
+  <div class="w3-large">
+
+          <div class="w3-col" style="width: 90px; height: 36px;">
+            <img src="https://vikaslazarus.github.io/AURA/logo.png" alt="Logo Aventuria" width="144px" height="36px">
+          </div>
+
+         
+        </div>
+</div>
+
+
+
+
+
+<div class="w3-half w3-hide-small w3-display-container" style="
+background: linear-gradient(115deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.568) 99%);
+ height: 100%;">
+  
+
+<div class="w3-container w3-center w3-display-middle w3-text-white">
+      
+  <h2 class="w3-xlarge">Welcome Back</h2>
+  <br>
+  <p>To highlight the current tab/page the user is on, add a color class, and use JavaScript to update the active link.</p>
+
+  <div class="w3-row">
+    <button style="width: 200px;" class="w3-round-xxlarge w3-border w3-teal w3-button tablink" onclick="openCity(event,'Login')">Sign In</button>
+    <br>
+    <br>
+    <button style="width: 200px;" class="w3-round-xxlarge w3-border w3-button tablink" onclick="openCity(event,'Register')">Sign Up</button>
+    
+  </div>
+  
+ 
+
+ 
+</div>
+
+
+
+
+</div>
+<div id="Login" class="w3-animate-right city w3-half w3-display-container w3-white" style="
+
+height: 100%;">
+
+
+  <div class="w3-row w3-display-middle" style="width: 300px;">
+
+    
+
+  <h2 class="w3-xlarge w3-center">User Sign In</h2>
+  <p class="w3-center">Login
+with your
+Username & Password</p>
+
+<hr>
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    
+      
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label><br>
+      <input style="margin-top: 12px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+<br>
+      <label for="psw"><b>Password</b></label><br>
+      <input style="margin-top: 12px;" class="w3-input w3-border w3-round-xxlarge" type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+
+         <div class="w3-row">
+          <div class="w3-col s6 m6 l6">
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </div>
+          <div class="w3-col s6 m6 l6 w3-right"></div>
+         <span class="psw w3-right">Forgot <a href="#">password?</a></span>
+         </div>
+         
+         <br>
+        <div class="w3-row w3-center w3-margin-top">
+      <button class="w3-button w3-round w3-teal w3-round-xxlarge" style="width: 200px;" type="submit">Login</button>
+    </div>
+     
+    </div>
+
+    
+  </form>
+</div>
+  
+</div>
+
+<div id="Register" class="w3-animate-right city w3-half w3-display-container w3-white" style="
+
+height: 100%;">
+  <div class="w3-row w3-display-middle" style="width: 300px;">
+
+  <h2 class="w3-xlarge w3-center">Sign Up</h2>
+  <p class="w3-center">Register
+with your
+Username & Password</p>
+
+<hr>
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    
+      
+
+    <div class="container">
+
+      <div class="w3-row">
+        <div class="w3-col s6 m6 l6" style="padding-right: 6px;">
+      <label for="uname"><b>First Name <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+
+        </div>
+         <div class="w3-col s6 m6 l6" style="padding-right: 6px;">
+      <label for="uname"><b>Last Name <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+
+         </div>
+      </div>
+
+<br>
+      <label for="psw"><b>Mobile Number  <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="tel" placeholder="+91-xxxxx-xxxxx" name="psw" required>
+        <br>
+
+<label for="psw"><b>Mail Address  <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="email" placeholder="Exemple@example.com" name="psw" required>
+        <br>
+         
+         <br>
+        <div class="w3-row w3-center w3-margin-top">
+      <button class="w3-button w3-round w3-teal w3-round-xxlarge" style="padding: 10px 22px; width: 200px;" type="submit">Sign Up</button>
+    </div>
+     
+    </div>
+
+    
+  </form>
+</div>
+  
+</div>
+
+
+</div>
+
+
+<div class="w3-row w3-top w3-hide-large w3-hide-medium" style="
+
+height: 100%;
+background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+
+">
+<div style="height: 100%; width: 100%; background: linear-gradient(115deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.568) 99%);
+">
+  <div class="w3-row w3-padding">
+      <img src="https://vikaslazarus.github.io/AURA/logo.png" alt="Logo Aventuria" width="144px" height="36px">
+          
+    </div>
+<div class="w3-row w3-padding w3-text-white w3-center">
+<h1 class="w3-xlarge w3-margin-top"><b>Welcome Back</b></h1>
+<p>Sign in to your account using Username And Password <br>Sign in to your account using Username And Password</p>
+</div>
+
+<div class="w3-row w3-padding w3-center">
+   
+<div class="w3-row">
+    <button class="w3-round-xxlarge w3-border w3-small w3-margin-right w3-teal w3-text-white w3-button tablinkss " onclick="OpenCity(event,'LO')" style=" padding: 6px 30px; ">Sign In</button>
+ 
+    <button class="w3-round-xxlarge w3-border w3-small w3-text-white w3-button tablinkss " onclick="OpenCity(event,'RE')" style=" padding: 6px 30px; ">Sign Up</button>
+    
+  </div>
+
+  </div>
+
+</div>
+
+
+
+  <div id="LO" class="city2  w3-row w3-padding w3-bottom w3-white" style="height: 60%; border-radius: 15px 15px 0px 0px;">
+ <div class="w3-row w3-center w3-display-container w3-teal" style=" padding-top: 0px;">
+  <div class="w3-display-middle">
+  <hr style=" width:50px; border:3px solid #ffffff; margin-top: -14px;" class="w3-margin-bottom w3-round">
+</div>
+</div>
+     <div class="w3-row">
+
+    
+
+  <h2 class="w3-xlarge w3-center" style="margin-top: 20px;"><b>Sign In</b></h2>
+  <p class="w3-center">Login
+with your
+Username & Password</p>
+
+<hr>
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    
+      
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label><br>
+      <input style="margin-top: 12px; padding: 12px 22px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+<br>
+      <label for="psw"><b>Password</b></label><br>
+      <input style="margin-top: 12px; padding: 12px 22px;" class="w3-input w3-border w3-round-xxlarge" type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+
+         <div class="w3-row">
+          <div class="w3-col s6 m6 l6">
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </div>
+          <div class="w3-col s6 m6 l6 w3-right"></div>
+         <span class="psw w3-right">Forgot <a href="#">password?</a></span>
+         </div>
+         
+         <br>
+        <div class="w3-row w3-center w3-margin-top">
+      <button class="w3-button w3-round w3-teal w3-round-xxlarge" style="padding: 10px 22px; width: 200px;" type="submit">Sign In</button>
+    </div>
+     
+    </div>
+
+    
+  </form>
+</div>
+
+</div>
+
+<div id="RE" class="city2 w3-card w3-row w3-padding w3-bottom w3-white" style="display: none; height: 65%; border-radius: 15px 15px 0px 0px;">
+  <div class="w3-row w3-center w3-display-container w3-teal" style=" padding-top: 0px;">
+  <div class="w3-display-middle">
+  <hr style=" width:50px; border:3px solid #ffffff; margin-top: -14px;" class="w3-margin-bottom w3-round">
+</div>
+</div> 
+ 
+     <div class="w3-row">
+
+    
+
+  <h2 class="w3-xlarge w3-center" style="margin-top: 20px;"><b>Sign Up</b></h2>
+  <p class="w3-center">Sign up to get our best services.</p>
+
+<hr>
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    
+      
+
+    <div class="container">
+
+      <div class="w3-row">
+        <div class="w3-col s6 m6 l6" style="padding-right: 6px;">
+      <label for="uname"><b>First Name <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+
+        </div>
+         <div class="w3-col s6 m6 l6" style="padding-right: 6px;">
+      <label for="uname"><b>Last Name <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="text" placeholder="Enter Username" name="uname" required>
+
+         </div>
+      </div>
+
+<br>
+      <label for="psw"><b>Mobile Number  <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="tel" placeholder="+91-xxxxx-xxxxx" name="psw" required>
+        <br>
+
+<label for="psw"><b>Mail Address  <span class="w3-text-red">*</span></b></label><br>
+      <input style="margin-top: 12px; padding: 8px 22px;" class="w3-input w3-border w3-round-xxlarge" type="email" placeholder="Exemple@example.com" name="psw" required>
+        <br>
+         
+         <br>
+        <div class="w3-row w3-center w3-margin-top">
+      <button class="w3-button w3-round w3-teal w3-round-xxlarge" style="padding: 10px 22px; width: 200px;" type="submit">Sign Up</button>
+    </div>
+     
+    </div>
+
+    
+  </form>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-teal", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-teal";
+}
+</script>
+    
+<script>
+function OpenCity(evt, cityName2) {
+  var i, x, tablin;
+  x = document.getElementsByClassName("city2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablin = document.getElementsByClassName("tablinkss");
+  for (i = 0; i < x.length; i++) {
+    tablin[i].className = tablin[i].className.replace(" w3-teal", "");
+  }
+  document.getElementById(cityName2).style.display = "block";
+  evt.currentTarget.className += " w3-teal";
+}
+</script>
+
+</body></html>
